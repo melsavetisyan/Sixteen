@@ -1,0 +1,25 @@
+.tittle{
+    text-align: left;
+    margin-bottom: 60px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

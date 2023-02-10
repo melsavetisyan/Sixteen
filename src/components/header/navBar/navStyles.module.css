@@ -1,0 +1,51 @@
+.ul{
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.li{
+    box-sizing: border-box;
+    list-style: none;
+    transition: .2s;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.li:hover{
+    border-bottom: 2px solid red;
+}
+.nav{
+    height: 100%;
+}
+.liActive{
+    box-sizing: border-box;
+    list-style: none;
+    transition: .2s;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+.burgerBtn{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(35, 35, 35);
+    border: none;
+}

@@ -1,0 +1,8 @@
+[
+    {"id":"1", "name":"Johnny William", "profession":"CO-Founder", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_01.jpg"},
+    {"id":"2", "name":"Karry Pitcher", "profession":"Product Expert", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_02.jpg"},
+    {"id":"3", "name":"Michael Soft", "profession":"Chief Marketing", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_03.jpg"},
+    {"id":"4", "name":"Mary Cool", "profession":"Product Specialist", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_04.jpg"},
+    {"id":"5", "name":"George Walker", "profession":"Product Photographer", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_05.jpg"},
+    {"id":"6", "name":"Kate Town", "profession":"General Manager", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.", "image": "https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/team_06.jpg"}
+]

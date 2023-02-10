@@ -1,0 +1,30 @@
+.parent{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:25px;
+    flex-direction:column;
+    gap: 25px
+}
+.titAndView{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    border-bottom:1px solid #e1e1e1
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content:center;
+}
+.view{
+    color:#f33f3f;
+    font-weight: 700;
+    text-decoration:none
+}
+.tittle{
+    font-size:24px;
+    color:#1e1e1e
+}

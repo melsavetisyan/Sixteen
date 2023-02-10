@@ -1,0 +1,41 @@
+.parent{
+    /* backgroundImage: `url(${slides[index].image})`; */
+    height:100vh;
+    /* width: 100%; */
+    user-select:none;
+    padding-top: 250px;
+    background-repeat: round;
+    text-align:center
+}
+.tittle{
+    color:#f33f3f;
+    font-size: 22px;
+    margin: 0
+}
+.button{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border: none;
+    cursor:pointer
+}
+
+.btns{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    margin-top: 30vh
+}
+.h4{
+    color:#fff;
+    font-size:62px;
+    margin: 0
+}
+.titAndDes{
+    display:flex;
+    flex-direction:column;
+    gap: 5px
+}
+.btnBlack{
+    background:black
+}

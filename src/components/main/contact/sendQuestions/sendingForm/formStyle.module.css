@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.input{
+    height: 60px;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.textarea{
+    min-height: 100px;
+    padding: 5px 10px;
+    font-size: 20px;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.button{
+    background-color: #f33f3f;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    font-size:  16px;
+    width:  150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.errInput{
+    height: 40px;
+    border: 1px solid red;
+    padding: 5px 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.errTextArea{
+    min-height: 100px;
+    padding: 5px 10px;
+    font-size: 20px;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    
+}

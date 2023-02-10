@@ -1,0 +1,27 @@
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    width: 100%;
+    background-image: url('https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/services-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    gap: 15px;
+}
+@media screen and (max-width:583px) {
+    .row{
+        flex-direction: column;
+    }
+}

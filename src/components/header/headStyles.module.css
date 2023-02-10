@@ -1,0 +1,16 @@
+.header{
+    background-color: #232323;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 2s;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    text-align:center
+}

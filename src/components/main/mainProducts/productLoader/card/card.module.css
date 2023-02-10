@@ -1,0 +1,80 @@
+.parent{
+    box-shadow: 1px 1px 0px 0px rgba(225, 225, 225, 0.75);
+    padding: 1px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+}
+.titpr{
+    display:flex;
+    justify-content:space-between
+}
+.desprst{
+    width:70%;
+    display: flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:15px;
+    margin-bottom:10px
+}
+.tittle{
+    color: #1a6692;
+    font-size: 17px
+}
+.price{
+    font-size:18px;
+    color:#121212
+}
+.description{
+    display:flex;
+    margin:0
+}
+.rev{
+    color:#f33f3f;
+    font-size:13px;
+    font-weight:500
+}
+.m0{
+    margin:0
+}
+p{
+    color: #4a4a4a;
+    font-weight:300;
+    font-size:14px;
+    text-align:start
+}
+.imd{
+    width:100%;
+}
+.imdParent{
+    width:100%;
+    position:relative
+}
+.hlink{
+    text-decoration: none
+}
+
+.heartPassive{
+    cursor: pointer;
+    position: absolute;
+    fill: none;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    stroke: red;
+    fill:white;
+    opacity: .5;
+}
+.heartPassive:hover{
+    fill: red;
+}
+.heartActive{
+    cursor: pointer;
+    position: absolute;
+    stroke:red;
+    fill: red;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}

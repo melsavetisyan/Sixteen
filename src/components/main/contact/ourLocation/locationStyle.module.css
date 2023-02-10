@@ -1,0 +1,154 @@
+.pictreDesSocilNetworks{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+.ourBackground{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle{
+    text-align: left;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+.th2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+.snnav{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.snli{
+    list-style: none;
+    text-decoration: none;
+}
+.desTittle{
+    font-size: 17px;
+    color: #1a6692;
+    margin-bottom: 20px;
+}
+
+.desSocilNetworks{
+    justify-content: space-between;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.desP{
+    border-bottom: 1px solid #eee;
+    max-width: 450px;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faA{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+}
+.faA:hover{
+    background-color: #EC3D3D;
+    color: #eee;
+}
+.iframe{
+    width: 550px;
+    height: 300px;
+}
+
+@media screen and (max-width:1059px) {
+    .iframe{
+        width: 500px;
+        height: 100%;
+    }
+}
+@media screen and (max-width:1006px) {
+    .iframe{
+        width: 450px;
+        height: 100%;
+    }
+}
+@media screen and (max-width:910px) {
+    .iframe{
+        width: 400px;
+        height: 100%
+    }
+}
+@media screen and (max-width:812px) {
+    .iframe{
+        width: 100%;
+        height: 300px;
+    }
+    .pictreDesSocilNetworks{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .desSocilNetworks{
+        justify-content: space-between;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }    
+    .snnav{
+        display: flex;
+        flex-direction: column;
+        /* gap: 10px; */
+        justify-content: space-between;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .desP{
+        border-bottom: 1px solid #eee;
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:468px) {
+    .desP{
+        border-bottom: 1px solid #eee;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .desP{
+        border-bottom: 1px solid #eee;
+        max-width: 100%;
+    }
+    .desSocilNetworks{
+        justify-content: space-between;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    } 
+    .snnav{
+        display: flex;
+        flex-direction: row;
+        /* gap: 10px; */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

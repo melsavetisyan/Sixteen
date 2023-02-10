@@ -1,0 +1,27 @@
+.parentOutContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.parent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between  ;
+    row-gap: 40px;
+}
+.empty{
+    width: 100%;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
