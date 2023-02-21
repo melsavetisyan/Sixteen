@@ -56,3 +56,24 @@
     align-items: center;
     text-decoration: none;
 }
+
+@media screen and (max-width: 874px) {
+    .parent{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns:  45% 45%;
+        row-gap: 15px;
+        transition: all 2s;
+    }
+}
+@media screen and (max-width: 672px) {
+    .parent{
+        display: grid;
+        justify-content: center;
+        grid-template-columns:  90%;
+        align-self: center  ;
+        row-gap: 15px;
+        transition: all 2s;
+    }
+}

@@ -49,7 +49,7 @@ export default function CartCard(props){
                        <div className={styles.count}>
                             Count: {props.count}
                        </div>
-                       <Link to={`/Paymant/#infoidIS${props.hlink}&countIS${props.count}`} className={styles.priceBtn}>
+                       <Link to={`/Payment/?infoidIS${props.hlink}&countIS${props.count}`} className={styles.priceBtn}>
                             ${ props.count * Number(props.price.split('$')[1].trim())}
                        </Link>
                     </div>

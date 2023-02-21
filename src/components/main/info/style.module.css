@@ -86,3 +86,35 @@
 .imgParent{
     position: relative;
 }
+
+@media screen and (max-width:530px) {
+    .img{
+        width: 424px;
+    }
+}
+@media screen and (max-width:457px) {
+    .img{
+        width: 365px;
+    }
+}
+@media screen and (max-width:405px) {
+    .img{
+        width: 320px;
+    }
+}
+@media screen and (max-width:355px) {
+    .img{
+        width: 320px;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .input{
+        width: 100px;
+    }
+}
+@media screen and (max-width:405px) {
+    .img{
+        width: 297px;
+    }
+}

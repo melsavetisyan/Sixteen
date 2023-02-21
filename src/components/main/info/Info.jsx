@@ -57,9 +57,6 @@ export default function Info(){
         localStorage.setItem("cart", JSON.stringify(cart));
     }, [cart]);
     
-    function removeFromCart(item){
-        setCart(cart.filter(i => i.id !== item.id));
-    };
     
     const  addToCart = (item) =>{
         const filtered = cart.filter(data=>data.id!=item.id)
@@ -67,9 +64,7 @@ export default function Info(){
         console.log()
         setCart([...filtered, item])
     };
-      
     
-
     return(
         <div className={styles.parent}>
             <div className={styles.container}>
@@ -86,7 +81,7 @@ export default function Info(){
                             </div>
                         </div>
                         <div className={styles.button}>
-                            <div className="counter">
+                            <div className='counter'>
                                 <input className={styles.input} onChange={(e)=>inputChange(e)} value={value}  type="number" />
                             </div>
                             <button className={styles.price} onClick={()=>addToCart({'id':info, 'count':value})} >{'$ '+Math.floor(value*price)}</button>

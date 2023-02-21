@@ -38,10 +38,40 @@
 }
 .input{
     width: 300px;
-    height: 50px;
+    height: 45px;
     border-radius: 25px;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 20px;
     box-sizing: border-box;
     font-size: 25px;
+    cursor: pointer;
+}
+.outParent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    gap: 35px;
+    background-color: gray;
+    padding: 30px;
+}
+.loader{
+    color: red;
+}
+.thanks{
+    font-size: 35px;
+    color: #28a745;
+    /* background-color: #198754; */
+    /* opacity:; */
+    padding: 10px;
+    border: 6px solid #198754;
 }

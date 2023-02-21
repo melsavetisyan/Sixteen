@@ -36,8 +36,8 @@
     box-sizing: border-box;
     list-style: none;
     transition: .2s;
-    padding-bottom: 15px;
-    margin-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 12px;
     border-bottom: 2px solid red;
     text-align: center;
 }
@@ -48,4 +48,38 @@
     place-items: center;
     background-color: rgb(35, 35, 35);
     border: none;
+}
+@media screen and (max-width:581px) {
+    .liActive{
+        width: 100%;
+        box-sizing: border-box;
+        list-style: none;
+        transition: .2s;
+        padding-bottom: 0;
+        margin-top: 0;
+        background-color: gray;
+        border-bottom: none;
+        text-align: center;
+        height: 40px;
+    }
+    .li{
+        width: 100%;
+        box-sizing: border-box;
+        list-style: none;
+        transition: .2s;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 40px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

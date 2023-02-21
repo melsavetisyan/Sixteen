@@ -31,11 +31,13 @@ function Header(){
                 <NavBar setfunc={() => setDisNone(prev=>!prev)}/>
             </div>
             {width<1200?(
-                <div className="ulLiBurger" style={disNone? styles.disnClose:styles.disnOpen}>
-                    <nav>
-                        <ul style={{textlign:"center"}}>
-                            <NavLis/>
-                        </ul>
+                <div className={headStyles.ulLiBurger} style={disNone? styles.disnClose:styles.disnOpen}>
+                    <nav className={headStyles.nav35}>
+                        <div className={headStyles.ulContainer}>
+                            <ul className={headStyles.ul36} style={{textlign:"center"}}>
+                                <NavLis/>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             ):(<></>)

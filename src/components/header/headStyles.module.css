@@ -14,3 +14,48 @@
     flex-direction: row;
     text-align:center
 }
+.ulContainer{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    text-align:center
+}
+.ulLiBurger{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1200px) {
+    .ul36{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav35{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:581px) {
+    .ul36{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav35{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ulContainer{
+        width: 100%;
+    }
+}

@@ -15,7 +15,6 @@ export default function NavBar(props){
         {"id": "6", "name": <FiShoppingCart/>, "to": "/Cart"}
     ]
     const [isClosed, setIsClosed] = useState(false);
-    const [active, setActive]= useState()
     useEffect(locationActivation, [])
     
     const [width, setWidth] = useState(window.innerWidth);
@@ -32,7 +31,6 @@ export default function NavBar(props){
     function locationActivation(){
         const locationNow = '/'+window.location.href.split('/').reverse()[0]
         const thisLocationObj = navdata.filter(item => item.to === locationNow)
-        if(thisLocationObj.length) setActive(thisLocationObj[0].id)
     }
 
     const burgerClick = ()=>{
@@ -47,7 +45,7 @@ export default function NavBar(props){
                     <Burger isClosed={isClosed} />
         </button>
         ): (
-        <nav>
+        <nav className="asdas">
             <ul className={navStyles.ul}>
                <NavLis inHeader={false}/>
             </ul>
