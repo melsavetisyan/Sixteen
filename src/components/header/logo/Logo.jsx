@@ -6,7 +6,8 @@ function Logo(){
             fontSize: '24px',
             color: '#fff',
             textTransform: 'uppercase',
-            textDecoration:'none'
+            textDecoration:'none',
+            textAlign:'start'
         },
         span:{
             color:"#f33f3f"

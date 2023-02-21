@@ -1,0 +1,35 @@
+@media screen and (max-width:721px) {
+    /* .payCard{
+
+    } */
+}
+@media screen and (max-width:690px) {
+    .rccs__card, .rccs__card--unknown, .rccs__card--flipped, .rccs__card--unknown{
+        width: 280px;
+        height: 176px;
+    }
+}
+@media screen and (max-width:624px) {
+    .rccs__card, .rccs__card--unknown, .rccs__card--flipped, .rccs__card--unknown{
+        width: 270px;
+        height: 169px;
+    }
+}
+@media screen and (max-width:624px) {
+    .rccs__card, .rccs__card--unknown, .rccs__card--flipped, .rccs__card--unknown{
+        width: 300px;
+        height: 188px;
+    }
+}
+@media screen and (max-width:425px) {
+    .rccs__card, .rccs__card--unknown, .rccs__card--flipped, .rccs__card--unknown{
+        width: 250px;
+        height: 157px;
+    }
+}
+@media screen and (max-width:363px) {
+    .rccs__card, .rccs__card--unknown, .rccs__card--flipped, .rccs__card--unknown{
+        width: 240px;
+        height: 150px;
+    }
+}

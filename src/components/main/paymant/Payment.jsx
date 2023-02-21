@@ -5,7 +5,7 @@ import ReactLoading from  'react-loading'
 import GetFullPrice from "./getPrices/GetFullPrice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-
+import './stylesForCard.css'
 import styles from './payment.module.css'
 
 export default function Payment(){
@@ -97,7 +97,7 @@ export default function Payment(){
                 loadingInner
               :
             <div className={styles.parent}>
-               <Cards cvc={formData.CVC} expiry={formData.MM_YY}  focused={focuse} name={formData.NAME} number={changedCard} />
+               <Cards className={styles.payCard} cvc={formData.CVC} expiry={formData.MM_YY}  focused={focuse} name={formData.NAME} number={changedCard} />
                 <form className={styles.form} onSubmit={handleSubmit} >
                   <div className={styles.formDiv} >
                     <input className={styles.input}  onFocus={()=>handleInputFocus('number')} onInput={(e)=>inputChangeFn(e, "CARD_NUMBER")} type='tel'  value={changedCard.trim( )} placeholder="Card Number"/>

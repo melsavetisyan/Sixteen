@@ -47,6 +47,7 @@
     cursor: pointer;
 }
 .outParent{
+    margin-top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,10 +60,15 @@
     align-items: center;
 }
 .parent{
+    background:linear-gradient(-45deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
     display: flex;
     gap: 35px;
     background-color: gray;
     padding: 30px;
+    width: fit-content;
 }
 .loader{
     color: red;
@@ -70,8 +76,66 @@
 .thanks{
     font-size: 35px;
     color: #28a745;
-    /* background-color: #198754; */
-    /* opacity:; */
     padding: 10px;
     border: 6px solid #198754;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media screen and (max-width:721px) {
+    /* .payCard{
+
+    } */
+    .input{
+        width: 250px;
+    }
+}
+@media screen and (max-width:672px) {
+    .input{
+        width: 200px;
+    }
+}
+@media screen and (max-width:624px) {
+    .parent{
+        gap: 30px;
+        flex-direction: column;
+    }
+    .input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:425px) {
+    .parent{
+        padding: 20px;
+    }
+    .input{
+        width: 250px;
+    }
+}
+@media screen and (max-width:389px) {
+    .parent{
+        padding: 20px 8px ;
+    }
+    .input{
+        width: 240px;
+    }
+}
+@media screen and (max-width:363px) {
+    .input{
+        width: 240px;
+    }
+}
+@media screen and (max-width:363px) {
+    .parent{
+        padding: 20px 0px ;
+    }
 }

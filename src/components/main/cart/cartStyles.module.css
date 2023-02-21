@@ -77,3 +77,13 @@
         transition: all 2s;
     }
 }
+@media screen and (max-width: 500px) {
+    .empty{
+        font-size: 30px
+    }
+}
+@media screen and (max-width: 333px) {
+    .empty{
+        font-size: 25px
+    }
+}
